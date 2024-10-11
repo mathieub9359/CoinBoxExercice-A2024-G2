@@ -37,3 +37,5 @@ jobs:
     - name: Save file
       run: |
         tar -czvf htmlcov_report.tar.gz htmlcov
+    -with
+      name: htmlcov_report.tar.gz
