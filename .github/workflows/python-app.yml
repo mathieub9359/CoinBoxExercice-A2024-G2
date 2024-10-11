@@ -36,4 +36,4 @@ jobs:
         coverage html
     - name: Save file
       run: |
-        tar -czvf htmlcov_report.tar.gz htmlcol
+        tar -czvf htmlcov_report.tar.gz htmlcov
